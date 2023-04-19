@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Map</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <meta charset="UTF-8">
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Nationalities</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>My Maps</h1>
+    <section id="maps_container">
+        <h3>My Maps</h3>
+        <div id="map"></div>
+    </section>
+    <footer>
+        <p>Created by Emilio Arias</p>
+        <address>
+            <p><a href="mailto:earias5@hawk.iit.edu">earias5@hawk.iit.edu</a></p>
+        </address>
+    </footer>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVHpNETGQbjxtvfGN39Fa5tJxg2nHtPb0&callback=initMap"></script>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
